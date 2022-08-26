@@ -5,5 +5,5 @@ services:
     mem_limit: 1048576000
     image: ajilaag/clamav-rest
     ports:
-      - "9000:9000"
-      - "9443:9443"
+      - "80:9000"
+      - "443:9443"
